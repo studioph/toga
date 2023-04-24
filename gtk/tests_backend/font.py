@@ -2,7 +2,7 @@ from typing import Union
 
 from toga_gtk.libs import Gtk, Pango
 
-from .base import SimpleProbe
+from .widgets.base import SimpleProbe
 
 
 class FontProbe(SimpleProbe):
